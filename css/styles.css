@@ -12,12 +12,27 @@ body {
   font-family: 'roboto', Arial, Helvetica, sans-serif;
   color: #757575;
 }
+
+h1,
+h2,
+h2,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+
 /* ----------------------------ЛОГОТИП-------------------- */
 .first-color-logo {
   font-family: Raleway;
@@ -36,10 +51,15 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-logo-color);
 }
+
 /* ------------------------------ШАПКА-------------------------- */
+
 .header {
   background-color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -47,6 +67,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--header-text-color);
 }
+
 .header-mail {
   font-weight: 500;
   font-size: 14px;
@@ -54,6 +75,7 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
 .header-tel {
   font-weight: 500;
   font-size: 14px;
@@ -61,6 +83,7 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
@@ -77,6 +100,7 @@ body {
 .main-section {
   background: #2f303a;
 }
+
 .mein-heading {
   font-weight: 900;
   font-size: 44px;
@@ -86,6 +110,7 @@ body {
   text-transform: uppercase;
   color: var(--first-title-color);
 }
+
 .main-btn {
   font-family: inherit;
   font-weight: 700;
@@ -99,10 +124,13 @@ body {
   color: var(--first-title-color);
   border: none;
 }
+
 /* ------------------------------ПРИЕМУЩЕСТВА-------------------- */
+
 .page-section {
   background: #ffffff;
 }
+
 .head-section {
   font-weight: 700;
   font-size: 14px;
@@ -111,6 +139,7 @@ body {
   text-transform: uppercase;
   color: var(--header-text-color);
 }
+
 .content-section {
   font-weight: 400;
   font-size: 14px;
@@ -127,10 +156,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
+
 /* ------------НАША КОМАНДА----------------- */
+
 .section-team {
   background: #f5f4fa;
 }
+
 .title-team {
   font-weight: 700;
   font-size: 36px;
@@ -147,6 +179,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
+
 .work-person {
   font-weight: 400;
   font-size: 16px;
@@ -154,18 +187,23 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 /* -------------КОНТАКТЫ----------------- */
+
 .contacts-mail:hover,
 .contacts-mail:focus {
   color: var(--accent-color);
 }
+
 .contacts-tel:hover,
 .contacts-tel:focus {
   color: var(--accent-color);
 }
+
 .contacts {
   background: #2f303a;
 }
+
 .contacts-address {
   font-style: normal;
   font-weight: 400;
@@ -174,6 +212,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--address-color);
 }
+
 .contacts-mail {
   font-style: normal;
   font-weight: 400;
@@ -182,6 +221,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-address-color);
 }
+
 .contacts-tel {
   font-style: normal;
   font-weight: 400;
@@ -192,10 +232,13 @@ body {
 }
 
 /* --------------PORTFOLIO --------------*/
+
 /* ----------------ФИЛЬТР------------------ */
+
 .portfolio {
   background-color: #ffffff;
 }
+
 .btn-portfolio {
   font-family: inherit;
   font-weight: 500;
@@ -208,11 +251,13 @@ body {
   cursor: pointer;
   border: none;
 }
+
 .btn-portfolio:hover,
 .btn-portfolio:focus {
   color: #ffff;
   background-color: var(--accent-color);
 }
+
 .portfolio-header-pic {
   font-weight: 700;
   font-size: 18px;
@@ -220,6 +265,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--second-title-color);
 }
+
 .portfolio-text-pic {
   font-weight: 400;
   font-size: 16px;

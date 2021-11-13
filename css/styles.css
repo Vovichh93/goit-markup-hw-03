@@ -220,6 +220,7 @@ img {
   padding-bottom: 94px;
 }
 .title-work {
+  margin-bottom: 50px;
   background: #ffffff;
   font-weight: 700;
   font-size: 36px;
@@ -228,7 +229,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
-
+.list-img {
+  display: flex;
+  justify-content: center;
+}
+.order-img:not(:last-child) {
+  margin-right: 30px;
+}
 /* ------------НАША КОМАНДА----------------- */
 
 .section-team {

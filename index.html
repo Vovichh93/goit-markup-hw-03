@@ -13,95 +13,106 @@
     />
     <link
       rel="stylesheet"
-      href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка сайта   -->
 
     <header class="header">
-      <nav class="header-navigation">
-        <a class="link header-logo" href="#0" lang="en">
-          <span class="first-color-logo">Web</span>
-          <span class="second-color-logo">Studio</span></a
-        >
-        <ul class="list header-list">
-          <li class="header-item">
-            <a class="link header-link" href="">Студия</a>
-          </li>
-          <li class="header-item">
-            <a class="link header-link" href="./portfolio.html"> Портфолио</a>
-          </li>
-
-          <li class="header-item">
-            <a class="link header-link" href=""> Контакты </a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a class="link header-mail" href="mailto:info@devstudio.com" lang="en"
-            >info@devstudio.com</a
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a class="link header-logo" href="#0" lang="en">
+            <span class="first-color-logo">Web</span>
+            <span class="second-color-logo">Studio</span></a
           >
-        </li>
-        <li><a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+          <ul class="list header-list">
+            <li class="header-item">
+              <a class="link header-link" href="">Студия</a>
+            </li>
+            <li class="header-item">
+              <a class="link header-link" href="./portfolio.html"> Портфолио</a>
+            </li>
+
+            <li class="header-item">
+              <a class="link header-link" href=""> Контакты </a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="list header-contacts">
+          <li>
+            <a class="link header-mail" href="mailto:info@devstudio.com" lang="en"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li><a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </div>
     </header>
 
     <!-- Главный заголовок   -->
     <main>
       <section class="main-section">
-        <h1 class="mein-heading">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <button class="main-btn" type="button">Заказать услугу</button>
+        <div class="container title-container">
+          <h1 class="mein-heading">Эффективные решения для вашего бизнеса</h1>
+          <button class="main-btn" type="button">Заказать услугу</button>
+        </div>
       </section>
 
       <!-- Наши преимущества -->
       <section class="page-section">
-        <ul class="list list-section">
-          <li>
-            <h3 class="head-section">Внимание к деталям</h3>
-            <p class="content-section">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="head-section">Пунктуальность</h3>
-            <p class="content-section">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="head-section">Планирование</h3>
-            <p class="content-section">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="head-section">Современные технологии</h3>
-            <p class="content-section">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="list list-section">
+            <li class="list-text">
+              <h3 class="head-section">Внимание к деталям</h3>
+              <p class="content-section">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li class="list-text">
+              <h3 class="head-section">Пунктуальность</h3>
+              <p class="content-section">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li class="list-text">
+              <h3 class="head-section">Планирование</h3>
+              <p class="content-section">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li class="list-text">
+              <h3 class="head-section">Современные технологии</h3>
+              <p class="content-section">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
+
+      <!-- Чем мы занимаемся  -->
       <section>
-        <!-- Чем мы занимаемся  -->
-        <h2 class="title-work">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
-            <img src="./images/box-1.jpg" alt="фото1" width="370" height="294" />
-          </li>
-          <li>
-            <img src="./images/box-2.jpg" alt="фото2" width="370" height="294" />
-          </li>
-          <li>
-            <img src="./images/box-3.jpg" alt="фото3" width="370" height="294" />
-          </li>
-        </ul>
+        <div class="comtainer container-classes">
+          <h2 class="title-work">Чем мы занимаемся</h2>
+          <ul class="list">
+            <li>
+              <img src="./images/box-1.jpg" alt="фото1" width="370" height="294" />
+            </li>
+            <li>
+              <img src="./images/box-2.jpg" alt="фото2" width="370" height="294" />
+            </li>
+            <li>
+              <img src="./images/box-3.jpg" alt="фото3" width="370" height="294" />
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="section-team">
         <!-- Наша команда  -->

@@ -13,18 +13,35 @@ body {
   color: #757575;
 }
 
+p,
 h1,
 h2,
-h2,
+h3,
 h4,
 h5,
-h6,
-p,
+h6 {
+  margin: 0;
+}
 ul {
   margin: 0;
   padding: 0;
 }
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 
+.header-list {
+  display: flex;
+}
 .list {
   list-style: none;
 }
@@ -34,6 +51,9 @@ ul {
 }
 
 /* ----------------------------ЛОГОТИП-------------------- */
+.header-logo {
+  margin-right: 93px;
+}
 .first-color-logo {
   font-family: Raleway;
   font-weight: 700;
@@ -54,6 +74,24 @@ ul {
 
 /* ------------------------------ШАПКА-------------------------- */
 
+.header-container {
+  display: flex;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+.header-contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
 .header {
   background-color: #ffffff;
   padding-left: 15px;
@@ -69,11 +107,13 @@ ul {
 }
 
 .header-mail {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  margin-right: 50px;
 }
 
 .header-tel {
@@ -100,8 +140,17 @@ ul {
 .main-section {
   background: #2f303a;
 }
-
+.title-container {
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 223px;
+  padding-bottom: 257px;
+}
 .mein-heading {
+  display: block;
+  margin: 0 auto;
+  width: 696px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -112,6 +161,13 @@ ul {
 }
 
 .main-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -129,9 +185,19 @@ ul {
 
 .page-section {
   background: #ffffff;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list-section {
+  display: flex;
+}
+
+.list-text:not(:last-child) {
+  margin-right: 30px;
 }
 
 .head-section {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -147,6 +213,9 @@ ul {
   letter-spacing: 0.03em;
 }
 /*---------------ЧЕМ ЗАНИМАЕМСЯ------------ */
+.container-classes {
+  padding-bottom: 94px;
+}
 .title-work {
   background: #ffffff;
   font-weight: 700;

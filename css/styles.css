@@ -74,6 +74,12 @@ img {
 
 /* ------------------------------ШАПКА-------------------------- */
 
+.header {
+  background-color: #ffffff;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .header-container {
   display: flex;
 }
@@ -81,8 +87,6 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  padding-bottom: 25px;
-  padding-top: 25px;
 }
 .header-item:not(:last-child) {
   margin-right: 50px;
@@ -92,13 +96,11 @@ img {
   align-items: center;
   margin-left: auto;
 }
-.header {
-  background-color: #ffffff;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .header-link {
+  display: block;
+  padding-bottom: 25px;
+  padding-top: 25px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -108,6 +110,8 @@ img {
 
 .header-mail {
   display: block;
+  padding-bottom: 25px;
+  padding-top: 25px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -117,6 +121,9 @@ img {
 }
 
 .header-tel {
+  display: block;
+  padding-bottom: 25px;
+  padding-top: 25px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -187,11 +194,16 @@ img {
 /* ------------------------------ПРИЕМУЩЕСТВА-------------------- */
 
 .page-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
   background: #ffffff;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .list-section {
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
 }
 
@@ -216,7 +228,10 @@ img {
   letter-spacing: 0.03em;
 }
 /*---------------ЧЕМ ЗАНИМАЕМСЯ------------ */
-.container-classes {
+.classes {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1600px;
   padding-bottom: 94px;
 }
 .title-work {
@@ -240,15 +255,25 @@ img {
 
 .section-team {
   background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title-team {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-text-color);
+}
+.list-team {
+  display: flex;
+  justify-content: space-between;
 }
 .name-person {
   font-weight: 500;
@@ -279,10 +304,20 @@ img {
   color: var(--accent-color);
 }
 
-.contacts {
+.footer-block {
+  margin-left: auto;
+  margin-right: auto;
   background: #2f303a;
+  width: 1600px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-
+.futter-logo-color {
+  color: #ffffff;
+}
+.contacts {
+  margin-top: 20px;
+}
 .contacts-address {
   font-style: normal;
   font-weight: 400;
@@ -300,7 +335,10 @@ img {
   letter-spacing: 0.03em;
   color: var(--second-address-color);
 }
-
+.mail-futter {
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
 .contacts-tel {
   font-style: normal;
   font-weight: 400;

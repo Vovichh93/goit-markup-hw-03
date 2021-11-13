@@ -98,8 +98,8 @@
       </section>
 
       <!-- Чем мы занимаемся  -->
-      <section>
-        <div class="comtainer container-classes">
+      <section class="classes">
+        <div class="comtainer">
           <h2 class="title-work">Чем мы занимаемся</h2>
           <ul class="list list-img">
             <li class="order-img">
@@ -114,61 +114,70 @@
           </ul>
         </div>
       </section>
+
+      <!-- Наша команда  -->
+
       <section class="section-team">
-        <!-- Наша команда  -->
-        <h2 class="title-team">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <p>
-              <img src="./images/person1.jpg" alt="Игорь Демьяненко" width="270" height="260" />
-            </p>
-            <h3 class="name-person">Игорь Демьяненко</h3>
-            <p class="work-person" lang="en">Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/person2.jpg" alt="Ольга Репина " width="270" height="260" />
-            <h3 class="name-person">Ольга Репина</h3>
-            <p class="work-person" lang="en">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/person3.jpg" alt="Николай Тарасов" width="270" height="260" />
-            <h3 class="name-person">Николай Тарасов</h3>
-            <p class="work-person" lang="en">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/person4.jpg" alt="Михаил Ермаков" width="270" height="260" />
-            <h3 class="name-person">Михаил Ермаков</h3>
-            <p class="work-person" lang="en">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="title-team">Наша команда</h2>
+          <ul class="list list-team">
+            <li>
+              <p>
+                <img src="./images/person1.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+              </p>
+              <h3 class="name-person">Игорь Демьяненко</h3>
+              <p class="work-person" lang="en">Product Designer</p>
+            </li>
+            <li>
+              <img src="./images/person2.jpg" alt="Ольга Репина " width="270" height="260" />
+              <h3 class="name-person">Ольга Репина</h3>
+              <p class="work-person" lang="en">Frontend Developer</p>
+            </li>
+            <li>
+              <img src="./images/person3.jpg" alt="Николай Тарасов" width="270" height="260" />
+              <h3 class="name-person">Николай Тарасов</h3>
+              <p class="work-person" lang="en">Marketing</p>
+            </li>
+            <li>
+              <img src="./images/person4.jpg" alt="Михаил Ермаков" width="270" height="260" />
+              <h3 class="name-person">Михаил Ермаков</h3>
+              <p class="work-person" lang="en">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
+    <!-- Контакты -->
+
     <footer class="footer-block">
-      <a class="link" href="#0" lang="en"
-        ><span class="first-color-logo">Web</span><span class="second-color-logo"> Studio</span>
-      </a>
-      <address class="contacts">
-        <ul class="list">
-          <li>
-            <!-- Контакты -->
-            <a
-              class="link contacts-address"
-              href="https://goo.gl/maps/wN2QfeuY1FiPQJow7"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              г. Киев, пр-т Леси Украинки, 26
-            </a>
-          </li>
-          <li>
-            <a class="link contacts-mail" href="" lang="en">info@example.com</a>
-          </li>
-          <li>
-            <a class="link contacts-tel" href=""> +38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a class="link" href="#0" lang="en"
+          ><span class="first-color-logo">Web</span
+          ><span class="second-color-logo futter-logo-color"> Studio</span>
+        </a>
+
+        <address class="contacts">
+          <ul class="list">
+            <li>
+              <a
+                class="link contacts-address"
+                href="https://goo.gl/maps/wN2QfeuY1FiPQJow7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                г. Киев, пр-т Леси Украинки, 26
+              </a>
+            </li>
+            <li class="mail-futter">
+              <a class="link contacts-mail mail-futter" href="" lang="en">info@example.com</a>
+            </li>
+            <li>
+              <a class="link contacts-tel" href=""> +38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

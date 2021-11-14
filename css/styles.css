@@ -410,9 +410,10 @@ img {
   margin-top: -30px;
 }
 .img-list {
-  flex-basis: calc(100% / 3 -30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-header-pic {
@@ -432,3 +433,7 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+
+/* .gallery-list > li {
+  outline: 1px solid tomato;
+} */

@@ -23,7 +23,7 @@
   <body>
     <!-- Шапка сайта  -->
     <header class="header">
-      <div class="container header-container">
+      <div class="container header-container border-portfolio">
         <nav class="header-navigation">
           <a class="link header-logo" href="#0" lang="en">
             <span class="first-color-logo">Web</span>
@@ -52,88 +52,109 @@
         </ul>
       </div>
     </header>
-    <main>
+    <main class="main-portfolio">
       <section class="portfolio">
-        <h1 class="header-portfolio">Фильтр</h1>
-        <ul class="list list-portfolio">
-          <li>
-            <button class="btn-portfolio" type="button">Все</button>
-          </li>
-          <li>
-            <button class="btn-portfolio" type="button">Веб-сайты</button>
-          </li>
-          <li>
-            <button class="btn-portfolio" type="button">Приложения</button>
-          </li>
-          <li>
-            <button class="btn-portfolio" type="button">Дизайн</button>
-          </li>
-          <li>
-            <button class="btn-portfolio" type="button">Маркетинг</button>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="list list-portfolio">
+            <li class="button-list">
+              <button class="btn-portfolio" type="button">Все</button>
+            </li>
+            <li class="button-list">
+              <button class="btn-portfolio" type="button">Веб-сайты</button>
+            </li>
+            <li class="button-list">
+              <button class="btn-portfolio" type="button">Приложения</button>
+            </li>
+            <li class="button-list">
+              <button class="btn-portfolio" type="button">Дизайн</button>
+            </li>
+            <li class="button-list">
+              <button class="btn-portfolio" type="button">Маркетинг</button>
+            </li>
+          </ul>
 
-        <ul class="list">
-          <li class="img-list">
-            <img src="./images/portfolio/tehnokryak.jpg" alt="веб-сайт" width="370" height="294" />
-            <h2 class="portfolio-header-pic">Технокряк</h2>
-            <p class="portfolio-text-pic">Веб-сайт</p>
-          </li>
-          <li class="img-list">
-            <img src="./images/portfolio/poster.jpg" alt="постер" width="370" height="294" />
-            <h2 class="portfolio-header-pic">Постер New Orlean vs Golden Star</h2>
-            <p class="portfolio-text-pic">Дизайн</p>
-          </li>
-          <li class="img-list">
-            <img src="./images/portfolio/Seafood.jpg" alt="логотип" width="370" height="294" />
-            <h2 class="portfolio-header-pic">Ресторан Seafood</h2>
-            <p class="portfolio-text-pic">Приложение</p>
-          </li>
-          <li class="img-list">
-            <img src="./images/portfolio/Prime.jpg" alt="наушники" width="370" height="294" />
-            <h2 class="portfolio-header-pic">Проект Prime</h2>
-            <p class="portfolio-text-pic">Маркетинг</p>
-          </li>
-          <li class="img-list">
-            <img src="./images/portfolio/Boxes.jpg" alt="коробки" width="370" height="294" />
-            <h2 class="portfolio-header-pic">Проект Boxes</h2>
-            <p class="portfolio-text-pic">Приложение</p>
-          </li>
-          <li>
-            <img src="./images/portfolio/Inspiration.jpg" alt="монитор" width="370" height="294" />
-            <h2 class="portfolio-header-pic" lang="en">Inspiration has no Borders</h2>
-            <p class="portfolio-text-pic">Веб-сайт</p>
-          </li>
-          <li class="img-list">
-            <img
-              src="./images/portfolio/Limited-Edition.jpg"
-              alt="издание"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-header-pic">Издание Limited Edition</h2>
-            <p>Дизайн</p>
-          </li>
-          <li class="img-list">
-            <img src="./images/portfolio/project-lab.jpg" alt="бирка" width="370" height="294" />
-            <h2 class="portfolio-header-pic">Проект LAB</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li class="img-list">
-            <img
-              src="./images/portfolio/Growing-Business.jpg"
-              alt="ноутбук"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-header-pic" lang="en">Growing Business</h2>
-            <p>Приложение</p>
-          </li>
-        </ul>
+          <ul class="list gallery-list">
+            <li class="img-list">
+              <img
+                src="./images/portfolio/tehnokryak.jpg"
+                alt="веб-сайт"
+                width="370"
+                height="294"
+              />
+              <div class="card-content">
+                <h2 class="portfolio-header-pic">Технокряк</h2>
+                <p class="portfolio-text-pic">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="img-list">
+              <img src="./images/portfolio/poster.jpg" alt="постер" width="370" height="294" />
+
+              <h2 class="portfolio-header-pic">Постер New Orlean vs Golden Star</h2>
+              <p class="portfolio-text-pic">Дизайн</p>
+            </li>
+            <li class="img-list">
+              <img src="./images/portfolio/Seafood.jpg" alt="логотип" width="370" height="294" />
+
+              <h2 class="portfolio-header-pic">Ресторан Seafood</h2>
+              <p class="portfolio-text-pic">Приложение</p>
+            </li>
+            <li class="img-list">
+              <img src="./images/portfolio/Prime.jpg" alt="наушники" width="370" height="294" />
+
+              <h2 class="portfolio-header-pic">Проект Prime</h2>
+              <p class="portfolio-text-pic">Маркетинг</p>
+            </li>
+            <li class="img-list">
+              <img src="./images/portfolio/Boxes.jpg" alt="коробки" width="370" height="294" />
+
+              <h2 class="portfolio-header-pic">Проект Boxes</h2>
+              <p class="portfolio-text-pic">Приложение</p>
+            </li>
+            <li class="img-list">
+              <img
+                src="./images/portfolio/Inspiration.jpg"
+                alt="монитор"
+                width="370"
+                height="294"
+              />
+
+              <h2 class="portfolio-header-pic" lang="en">Inspiration has no Borders</h2>
+              <p class="portfolio-text-pic">Веб-сайт</p>
+            </li>
+            <li class="img-list">
+              <img
+                src="./images/portfolio/Limited-Edition.jpg"
+                alt="издание"
+                width="370"
+                height="294"
+              />
+
+              <h2 class="portfolio-header-pic">Издание Limited Edition</h2>
+              <p class="portfolio-text-pic">Дизайн</p>
+            </li>
+            <li class="img-list">
+              <img src="./images/portfolio/project-lab.jpg" alt="бирка" width="370" height="294" />
+
+              <h2 class="portfolio-header-pic">Проект LAB</h2>
+              <p class="portfolio-text-pic">Маркетинг</p>
+            </li>
+            <li class="img-list">
+              <img
+                src="./images/portfolio/Growing-Business.jpg"
+                alt="ноутбук"
+                width="370"
+                height="294"
+              />
+
+              <h2 class="portfolio-header-pic" lang="en">Growing Business</h2>
+              <p class="portfolio-text-pic">Приложение</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer-block">
-      <div class="container">
+      <div class="container footer-container">
         <a class="link" href="#0" lang="en"
           ><span class="first-color-logo">Web</span
           ><span class="second-color-logo futter-logo-color"> Studio</span>

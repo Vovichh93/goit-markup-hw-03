@@ -31,6 +31,7 @@ button {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 .container {
   width: 1200px;
@@ -198,6 +199,8 @@ img {
   margin-right: auto;
   width: 1600px;
   background: #ffffff;
+}
+.page-container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -232,6 +235,8 @@ img {
   margin-right: auto;
   margin-left: auto;
   width: 1600px;
+}
+.container-classes {
   padding-bottom: 94px;
 }
 .title-work {
@@ -255,13 +260,14 @@ img {
 
 .section-team {
   background: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
   width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
-
+.container-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .title-team {
   margin-bottom: 50px;
   font-weight: 700;
@@ -273,7 +279,10 @@ img {
 }
 .list-team {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+.list-team > li:not(:last-child) {
+  margin-right: 30px;
 }
 .name-person {
   font-weight: 500;
@@ -309,6 +318,8 @@ img {
   margin-right: auto;
   background: #2f303a;
   width: 1600px;
+}
+.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -352,11 +363,27 @@ img {
 
 /* ----------------ФИЛЬТР------------------ */
 
+.border-portfolio {
+  border: 1px solid #ececec;
+}
 .portfolio {
+  margin-left: auto;
+  margin-right: auto;
   background-color: #ffffff;
+  width: 1600px;
 }
 
+.list-portfolio {
+  margin-bottom: 50px;
+  padding-top: 94px;
+  display: flex;
+  justify-content: center;
+}
+.button-list:not(:last-child) {
+  margin-right: 8px;
+}
 .btn-portfolio {
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -365,7 +392,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--header-text-color);
   background: #f5f4fa;
-  cursor: pointer;
   border: none;
 }
 
@@ -374,8 +400,23 @@ img {
   color: #ffff;
   background-color: var(--accent-color);
 }
+/* ----------Галерея------------ */
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.img-list {
+  flex-basis: calc(100% / 3 -30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
 
 .portfolio-header-pic {
+  padding: 20px 24px 0px 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -384,6 +425,8 @@ img {
 }
 
 .portfolio-text-pic {
+  padding: 20px 24px 20px 24px;
+  margin-top: 4px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;

@@ -291,6 +291,7 @@ img {
 }
 
 .name-person {
+  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -300,6 +301,8 @@ img {
 }
 
 .work-person {
+  margin-top: 10px;
+  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;

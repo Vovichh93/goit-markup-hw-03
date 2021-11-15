@@ -75,11 +75,11 @@ img {
 
 /* ------------------------------ШАПКА-------------------------- */
 
-.header {
+.header-border {
   background-color: #ffffff;
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 1px solid #ececec;
 }
 .header-container {
   display: flex;
@@ -100,8 +100,8 @@ img {
 
 .header-link {
   display: block;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding-bottom: 32px;
+  padding-top: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -111,8 +111,8 @@ img {
 
 .header-mail {
   display: block;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding-bottom: 32px;
+  padding-top: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -123,8 +123,8 @@ img {
 
 .header-tel {
   display: block;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding-bottom: 32px;
+  padding-top: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -147,16 +147,12 @@ img {
 /* ---------------------ГЛАВНЫЙ ЗАГОЛОВОК------------------- */
 .main-section {
   background: #2f303a;
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
-.title-container {
-  padding-left: auto;
-  padding-right: auto;
-  padding-top: 223px;
-  padding-bottom: 257px;
-}
+
 .mein-heading {
   display: block;
   margin: 0 auto;
@@ -197,19 +193,19 @@ img {
 .page-section {
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
   background: #ffffff;
-}
-.page-container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .list-section {
   margin-right: auto;
   margin-left: auto;
   display: flex;
 }
-
+.list-text {
+  width: 270px;
+}
 .list-text:not(:last-child) {
   margin-right: 30px;
 }
@@ -234,11 +230,9 @@ img {
 .classes {
   margin-right: auto;
   margin-left: auto;
-  width: 1600px;
-}
-.container-classes {
   padding-bottom: 94px;
 }
+
 .title-work {
   margin-bottom: 50px;
   background: #ffffff;
@@ -260,14 +254,12 @@ img {
 
 .section-team {
   background: #f5f4fa;
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
-}
-.container-team {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .title-team {
   margin-bottom: 50px;
   font-weight: 700;
@@ -288,10 +280,13 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  width: 270px;
 }
-
+.indentation-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .name-person {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -302,7 +297,6 @@ img {
 
 .work-person {
   margin-top: 10px;
-  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -326,12 +320,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   background: #2f303a;
-  width: 1600px;
-}
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .futter-logo-color {
   color: #ffffff;
 }
@@ -372,18 +364,16 @@ img {
 
 /* ----------------ФИЛЬТР------------------ */
 
-.border-portfolio {
+.header {
   border: 1px solid #ececec;
 }
-.main-portfolio {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.portfolio {
+
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
-  width: 1600px;
 }
 
 .list-portfolio {
@@ -427,9 +417,11 @@ img {
   margin-top: 30px;
   border: 1px solid #eeeeee;
 }
+.card-content {
+  padding: 20px 24px;
+}
 
 .portfolio-header-pic {
-  padding: 20px 24px 0px 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -438,7 +430,6 @@ img {
 }
 
 .portfolio-text-pic {
-  padding: 20px 24px 20px 24px;
   margin-top: 4px;
   font-weight: 400;
   font-size: 16px;
